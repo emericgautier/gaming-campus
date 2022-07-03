@@ -19,7 +19,7 @@ button {
     text-transform: uppercase;
     color: white;
     font-weight: 700;
-    transition: 0.4 ease;
+    transition: 0.4s ease;
     cursor: pointer;
 }
 button:hover {
@@ -133,6 +133,46 @@ nav li:last-child:before {
   .icon-part button {
     padding: 9px 32px;
   }
+  .news-part {
+    background: rgb(245, 240, 240, 0.8);
+    padding: 65px 0;
+  }
+  .header-news {
+    display: grid;
+    grid-template-columns: 70% 30%;
+    align-items: center;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 0 25px;
+  }
+  .left-part {
+    line-height: 30px;
+  }
+  .left-part h2 {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-align: left;
+    font-weight: 600;
+  }
+  .left-part p {
+    text-align: left;
+    font-weight: 600;
+    font-size: 0.9rem;
+  }
+  .right-part button {
+    letter-spacing: 1px;
+    color: black;
+    border-color: black;
+    padding: 10px 20px;
+  }
+  .right-part button:hover {
+    color: whitesmoke;
+    background: rgba(0, 0, 0, 0.9);
+  }
+  .right-part i {
+    transform: translateX(5px);
+  }
 
+  
 
 
