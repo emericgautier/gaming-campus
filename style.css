@@ -303,8 +303,9 @@ nav li:last-child:before {
     width: 60px;
   }
   footer {
-    background: black;
+    background: rgb(15, 15, 15);
     color: whitesmoke;
+    padding: 25px;
   }
   footer h3 {
     text-transform: uppercase;
@@ -317,9 +318,6 @@ nav li:last-child:before {
     align-items: center;
     max-width: 1000px;
     margin: 0 auto;
-  }
-  footer img {
-    width: 80%;
   }
 
 
