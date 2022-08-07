@@ -6,4 +6,3 @@ Intégration d'une maquette professionnelle
 
 - HTML
 - CSS
-- SCSS
